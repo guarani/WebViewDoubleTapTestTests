@@ -1,6 +1,6 @@
 In the UIWebView, if an input element containing text has focus, and a button is pressed
 that causes the input to lose focus, then subsequently double-tapping on the input to 
-regain foucus and selecting Cut (or Copy or Paste) from the popup bar that appears causes
+regain focus and selecting Cut (or Copy or Paste) from the popup bar that appears causes
 the UIWebView to crash with the error
 
 	-[UIWebView cut:]: unrecognized selector sent to instance 0x10900ca60
