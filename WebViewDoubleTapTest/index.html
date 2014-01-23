@@ -1,12 +1,9 @@
 <html>
     <head>
-        <script type="text/javascript" src="jquery-1.10.2.js"></script>
-        <script type="text/javascript" src="jquery.mobile.just-touch.js"></script>
         <script type="text/javascript">
-            $(function() {
-              // Adding this click handler caused the error!
-              $("#go").click(function(){});
-            });
+            // Firing this click event handler causes the UIWebView to crash when cutting text!
+            var elem = document.getElementById("go");
+            elem.click(function(){});
         </script>
     </head>
     <body>

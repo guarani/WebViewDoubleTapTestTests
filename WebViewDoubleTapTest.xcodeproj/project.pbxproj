@@ -22,8 +22,6 @@
 		B0A773D11891631A00EF1E8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0A773CF1891631A00EF1E8D /* InfoPlist.strings */; };
 		B0A773D31891631A00EF1E8D /* WebViewDoubleTapTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A773D21891631A00EF1E8D /* WebViewDoubleTapTestTests.m */; };
 		B0A773DD189163AD00EF1E8D /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = B0A773DC189163AD00EF1E8D /* index.html */; };
-		B0A773E2189165DD00EF1E8D /* jquery-1.10.2.js in Resources */ = {isa = PBXBuildFile; fileRef = B0A773DE1891656000EF1E8D /* jquery-1.10.2.js */; };
-		B0A773E3189165DE00EF1E8D /* jquery.mobile.just-touch.js in Resources */ = {isa = PBXBuildFile; fileRef = B0A773E0189165BA00EF1E8D /* jquery.mobile.just-touch.js */; };
 		B0A773E51891681300EF1E8D /* essap_test.json in Resources */ = {isa = PBXBuildFile; fileRef = B0A773E41891681300EF1E8D /* essap_test.json */; };
 /* End PBXBuildFile section */
 
@@ -58,8 +56,6 @@
 		B0A773D01891631A00EF1E8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B0A773D21891631A00EF1E8D /* WebViewDoubleTapTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewDoubleTapTestTests.m; sourceTree = "<group>"; };
 		B0A773DC189163AD00EF1E8D /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		B0A773DE1891656000EF1E8D /* jquery-1.10.2.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-1.10.2.js"; sourceTree = "<group>"; };
-		B0A773E0189165BA00EF1E8D /* jquery.mobile.just-touch.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery.mobile.just-touch.js"; sourceTree = "<group>"; };
 		B0A773E41891681300EF1E8D /* essap_test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = essap_test.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,8 +124,6 @@
 				B0A773BF1891631A00EF1E8D /* Images.xcassets */,
 				B0A773AE1891631A00EF1E8D /* Supporting Files */,
 				B0A773DC189163AD00EF1E8D /* index.html */,
-				B0A773DE1891656000EF1E8D /* jquery-1.10.2.js */,
-				B0A773E0189165BA00EF1E8D /* jquery.mobile.just-touch.js */,
 				B0A773E41891681300EF1E8D /* essap_test.json */,
 			);
 			path = WebViewDoubleTapTest;
@@ -240,8 +234,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0A773E2189165DD00EF1E8D /* jquery-1.10.2.js in Resources */,
-				B0A773E3189165DE00EF1E8D /* jquery.mobile.just-touch.js in Resources */,
 				B0A773C01891631A00EF1E8D /* Images.xcassets in Resources */,
 				B0A773DD189163AD00EF1E8D /* index.html in Resources */,
 				B0A773B21891631A00EF1E8D /* InfoPlist.strings in Resources */,
@@ -476,6 +468,7 @@
 				B0A773D81891631A00EF1E8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0A773D91891631A00EF1E8D /* Build configuration list for PBXNativeTarget "WebViewDoubleTapTestTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +477,7 @@
 				B0A773DB1891631A00EF1E8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
