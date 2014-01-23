@@ -1,0 +1,90 @@
+{
+    "id": "init-payment-form",
+    "title": "Pago de servicios",
+    "fields": [
+               {
+               "placeholder": "",
+               "dataType": "CADENA",
+               "keyboardType": "NUMERO_TELEFONO",
+               "order": "",
+               "id": "cod barra",
+               "value": "",
+               "type": "inputText",
+               "label": "Codigo de Barras",
+               "hidden": false,
+               "required": true,    
+               "value": "434323432432453425"
+               },
+               {
+               "placeholder": "",
+               "dataType": "CADENA",
+               "order": "",
+               "id": "debitAccountNumber",
+               "type": "inputText",
+               "label": "Cuenta Bancaria",
+               "hidden": true,
+               "required": true
+               },
+               {
+               "placeholder": "",
+               "dataType": "CADENA",
+               "order": "",
+               "id": "debitAccountType",
+               "type": "inputText",
+               "label": "Tipo de Cuenta",
+               "hidden": true,
+               "required": true
+               },
+               {
+               "order": "",
+               "id": "__extFormInfoField",
+               "value": "[{\"tipoDatoFormulario\":{\"_value_\":\"CONSULTA\"},\"servicio\":{\"nombre\":\"ESSAP\",\"codigo\":\"1\",\"urlImagen\":\"https://secure.ticpro.net/api.pronet/img/62_Essap logo1.gif\",\"descripcion\":\"Agua\"},\"UUID\":\"650cbf46-5dad-49ac-9c4e-c163880c4686\",\"infoRendering\":\"{   \\\"KEYBOARD_TYPES\\\": [   {     \\\"nombreCampo\\\": \\\"cod barra\\\",     \\\"keyboardType\\\": \\\"NUMERO_TELEFONO\\\"   }   ] }\",\"tipoFormulario\":{\"_value_\":\"DATOS\"},\"campos\":[{\"nombre\":\"cod barra\",\"debitable\":false,\"descripcion\":\"Codigo de Barras\",\"ayuda\":\"Codigo de Barras de la Factura\",\"editable\":true}]},{\"tipoDatoFormulario\":{\"_value_\":\"PAGO\"},\"servicio\":{\"nombre\":\"ESSAP\",\"codigo\":\"1\",\"urlImagen\":\"https://secure.ticpro.net/api.pronet/img/62_Essap logo1.gif\",\"descripcion\":\"Agua\"},\"UUID\":\"e71ef07f-e014-454d-b8f7-68f6c47ead3e\",\"infoRendering\":\"{   \\\"KEYBOARD_TYPES\\\": [   {     \\\"nombreCampo\\\": \\\"cod barra\\\",     \\\"keyboardType\\\": \\\"NUMERO_TELEFONO\\\"   }   ] }\",\"tipoFormulario\":{\"_value_\":\"DATOS_BANCARIOS\"},\"campos\":[{\"nombre\":\"debitAccountNumber\",\"debitable\":false,\"descripcion\":\"Cuenta Bancaria\",\"editable\":false},{\"nombre\":\"debitAccountType\",\"debitable\":false,\"descripcion\":\"Tipo de Cuenta\",\"editable\":false}]}]",
+               "type": "none",
+               "hidden": true
+               },
+               {
+               "order": "",
+               "id": "token-tx",
+               "value": "UFRCAYMJKQBAPWHNOFRX-f6ac05a5f7c7ee0076aba61fccddc3e0df207f51",
+               "type": "none"
+               },
+               {
+               "options": [
+                           {
+                           "label": "AH - 0702500674 (15.000 GS.)",
+                           "id": "0702500674",
+                           "accType": "AH",
+                           "availableBalance": "15000.00",
+                           "currency": "GS"
+                           },
+                           {
+                           "label": "CC - 0701012040 (115.433 GS.)",
+                           "id": "0701012040",
+                           "accType": "CC",
+                           "availableBalance": "115433.00",
+                           "currency": "GS"
+                           }
+                           ],
+               "order": "",
+               "id": "account",
+               "type": "select",
+               "label": "Cuenta a debitar (Saldo disponible)",
+               "required": true
+               },
+               {
+               "title": "Siguiente",
+               "order": "",
+               "id": "submit",
+               "type": "submit"
+               },
+               {
+               "order": "",
+               "id": "esp-field-header-title",
+               "value": "ESSAP Agua",
+               "type": "none",
+               "hidden": true,
+               "required": false
+               }
+               ],
+    "headerTitle": "ESSAP Agua"
+}
