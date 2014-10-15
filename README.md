@@ -10,6 +10,7 @@ __Update 2014/10/15: Bug still present in iOS 8.0.2 (12A405)__
 
 This is the stack trace:
 
+```
 
 2014-01-23 15:11:08.352 WebViewDoubleTapTest[8416:70b] -[UIWebView cut:]: unrecognized selector sent to instance 0x10900ca60
 2014-01-23 15:11:08.361 WebViewDoubleTapTest[8416:70b] *** Terminating app due to uncaught exception 'NSInvalidArgumentException', reason: '-[UIWebView cut:]: unrecognized selector sent to instance 0x10900ca60'
@@ -33,3 +34,5 @@ This is the stack trace:
 	15  ???                                 0x0000000000000001 0x0 + 1
 )
 libc++abi.dylib: terminating with uncaught exception of type NSException
+
+```
