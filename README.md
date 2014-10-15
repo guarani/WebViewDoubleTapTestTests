@@ -4,6 +4,8 @@ regain focus and selecting Cut (or Copy or Paste) from the popup bar that appear
 the UIWebView to crash with the error
 
 	-[UIWebView cut:]: unrecognized selector sent to instance 0x10900ca60
+	
+~~Update 2014/10/15: Bug still present in iOS 8.0.2 (12A405)~~
 
 
 This is the stack trace:
