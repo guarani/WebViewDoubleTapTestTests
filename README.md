@@ -5,7 +5,7 @@ the UIWebView to crash with the error
 
 	-[UIWebView cut:]: unrecognized selector sent to instance 0x10900ca60
 	
-__Update 2014/10/15: Bug still present in iOS 8.0.2 (12A405)__
+__Update 2019/05/30: Bug still present in iOS 12.0 (16E226)__
 
 
 This is the stack trace:
